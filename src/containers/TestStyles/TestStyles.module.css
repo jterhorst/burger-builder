@@ -1,0 +1,4 @@
+.Test {
+    composes: font-mono from '../../styles/tailwind.css';
+    composes: text-lg from '../../styles/tailwind.css';
+}
