@@ -17,6 +17,7 @@
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
+    "enzyme": "^3.10.0",
     "eslint": "5.12.0",
     "eslint-config-react-app": "^3.0.8",
     "eslint-loader": "2.1.1",
@@ -29,10 +30,8 @@
     "fsevents": "^1.2.9",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
-    "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.2",
     "jest-resolve": "23.6.0",
-    "jest-watch-typeahead": "^0.2.1",
     "mini-css-extract-plugin": "0.5.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
@@ -47,6 +46,7 @@
     "react-dom": "^16.8.5",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.9.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "resolve": "1.10.0",
@@ -116,8 +116,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/jterhorst/Documents/learning/react/burger-builder-basic/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/jterhorst/Documents/learning/react/burger-builder-basic/node_modules/jest-watch-typeahead/testname.js"
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
     ]
   },
   "babel": {
@@ -127,6 +127,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^23.6.0",
+    "jest-watch-typeahead": "^0.2.1",
     "postcss-cli": "^6.1.3",
     "remote-redux-devtools": "^0.5.16",
     "tailwindcss": "^1.1.2"
